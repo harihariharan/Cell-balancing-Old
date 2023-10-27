@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balancing of Litium ion batteries</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Revolutionizing battery performance by an innovative approach to balance the cells for the future of 
+        Electric vehicles
+        </h1>
+        <br>
+        <br>
+    <h3>Introduction</h3> 
+    <p>In recent years lithium-ion batteries have been used for various applications such as locomotion, power supply etc. So, there is a high demand for lithium-ion batteries. The energy of an individual Li-ion cell is very low so it cannot be used. To overcome this many cells are connected in series and parallel as a battery pack to achieve the desired power requirement. However, the problem with Li-ion batteries is the unbalanced voltage and charge of the individual cell in the battery pack which may lead to the inefficient usage of the batteries. To avoid this there are various solutions. One of them is known as the active cell balancing method. In this method, the energy from the cells with high voltage is distributed among the cells with low voltage or State-of charge. This process is repeated until all the cells in the battery pack are balanced with similar state-of-charge. Many types of active cell balancing are possible. Such as inductor-based, capacitor-based, and converter-based. Among these, each has its own advantages and disadvantages. The converter-based active cell balancing seems to be the most efficient among those. In this research, we have used a flyback current-fed Ćuk converter had been used for the balancing the cells. The flyback section of the converter provides isolation for the cell and the Ćuk part is used for distributing the energy among the cells without fluctuation.</p>   
+    <h3>Methodology</h3>
+    <ol>
+        <li id="method">Requirement Analysis</li>
+        <p id="method1">Define the specifications and requirements of the project, including the input AC source voltage, battery pack specifications, and desired cell voltage balancing range. </p>
+        <li id="method">Circuit Design</li>
+        <p id="method1">Design the rectifier circuit to convert the AC source to DC. 
+            Design the bidirectional flyback converter circuit for bidirectional energy transfer between the battery stack and the intermediate DC bus. 
+            Design the Cuk converter circuit for voltage transformation and regulation. 
+            </p>
+        <li id="method">Component Selection</li>
+        <p id="method1">Select appropriate components for the rectifier, flyback converter, Cuk converter, and battery monitoring system. 
+            Ensure that the components meet the voltage and current requirements of the system. 
+            </p>
+        <li id="method">Hardware Implementation</li>
+        <p id="method1">Assemble the designed circuits on a prototype board. 
+           Connect the battery stack and intermediate DC bus to the bidirectional flyback converter. 
+           Connect the Cuk converter to the output of the bidirectional flyback converter. 
+           Install voltage sensors on each individual cell for monitoring. 
+            </p>
+        <li id="method">Control Algorithm Development</li>
+        <p id="method1">Develop a control algorithm to manage the bidirectional flyback converter's power transfer direction and Cuk converter operation modes. 
+           The algorithm should prioritize charging cells with lower voltages and ensure uniform voltage distribution. 
+            </p>
+        <li id="method">IoT Integration</li>
+        <p id="method1">Develop an IoT interface to monitor individual cell voltages in real-time. 
+           Implement a feedback mechanism to provide data on cell voltages to the control algorithm. 
+            </p>
+        <li id="method">Testing and Validation</li>
+        <p id="method1">Conduct initial tests to ensure that the system operates as intended. 
+           Validate the control algorithm's ability to balance cell voltages effectively. 
+           Monitor the system's performance under various load conditions. 
+            </p>
+        <li id="method">Cell Balancing Testing</li>
+        <p id="method1">Simulate or create scenarios where certain cells have lower voltages than others. 
+           Observe how the system responds. 
+            </p>
+    </ol> 
+    <h3>Working</h3>  
+    <img src="images\Screenshot 2023-10-08 134212.png" alt="working of Proposed model">  
+    <h3>Simulation</h3> 
+    <img id="sim" src="images\Screenshot 2023-10-05 162240.png" alt="working of Proposed model"> 
+    <h3>Simulation results</h3> 
+    <table id="result">
+        <th><a href="Results\cell1.html"><button>Status of Cell 1</button></a></th>
+        <th><a href="Results\cell2.html"><button>Status of Cell 2</button></a></th>
+        <th><a href="Results\cell3.html"><button>Status of Cell 3</button></a></th>
+    </table>
+    <table id="result">
+        <th><a href="Results\cell4.html"><button>Status of Cell 4</button></a></th>
+        <th><a href="Results\cell5.html"><button>Status of Cell 5</button></a></th>
+        <th><a href="Results\cell6.html"><button>Status of Cell 6</button></a></th>
+    </table>
+        <br>
+        <p id="overall"><a href="Results\Overall.html"><button>Overall Status of all cells in the battery compartment</button></a></p>
+    <h3>References</h3>
+    <ol id="ref">
+        <li>Analysis of bidirectional flyback converter",2015 International Conference on Computation of Power Energy Information and Communication (ICCPEIC).</li>
+        <li>Seungbin Park,Mina Kim,Hoejeong Jeong,Katherine A. Kim,Taewon Kim,A-Rong Kim,Jee-Hoon Jung,"Design Methodology of Bidirectional Flyback Converter for Differential Power Processing Modules in PV Applications",2019 10th International Conference on Power Electronics and ECCE Asia (ICPE 2019 - ECCE Asia).</li>
+        <li>Fanghua Zhang,Lan Xiao,Yangguang Yan,"Bi-directional forward-flyback DC-DC converter",2004 IEEE 35th Annual Power Electronics Specialists Conference (IEEE Cat. No.04CH37551).</li>
+        <li>sDylan Dah-Chuan Lu,"A bidirectional flyback converter with cross-coupled non-dissipative snubber circuits",2017 IEEE International Telecommunications Energy Conference (INTELEC).</li>    
+        <li>J. Qi and D. Dah-Chuan Lu, "Review of battery cell balancing techniques," 2014 Australasian Universities Power Engineering Conference (AUPEC), Perth, WA, Australia, 2014, pp. 1-6, doi: 10.1109/AUPEC.2014.6966514.</li>
+        <li>Z. B. Omariba, L. Zhang and D. Sun, "Review of Battery Cell Balancing Methodologies for Optimizing Battery Pack Performance in Electric Vehicles," in IEEE Access, vol. 7, pp. 129335-129352, 2019, doi: 10.1109/ACCESS.2019.2940090.</li>
+        <li>Hariprasad, A. & Priyanka, I. & Sandeep, R. & Ravi, O.. (2020). Battery Management System in Electric Vehicles. International Journal of Engineering Research and. V9. 10.17577/IJERTV9IS050458.</li>
+        <li>W. C. Lee, D. Drury and P. Mellor, "Comparison of passive cell balancing and active cell balancing for automotive batteries," 2011 IEEE Vehicle Power and Propulsion Conference, Chicago, IL, USA, 2011, pp. 1-7, doi: 10.1109/VPPC.2011.6043108.</li>
+        <li>Lee, Wai & Drury, David & Mellor, P.H.. (2011). Comparison of passive cell balancing and active cell balancing for automotive batteries. 1-7. 10.1109/VPPC.2011.6043108.</li>
+        <li>Duraisamy, Thiruvonasundari & Kaliyaperumal, Deepa. (2020). Active cell balancing for electric vehicle battery management system. International Journal of Power Electronics and Drive Systems (IJPEDS). 11. 571. 10.11591/ijpeds.v11.i2.pp571-579.</li>
+        <li>M Sanath Kumar , G Pavan Kumar , Fakeerappa Rathod , Sangeeta Modi, 2022, Cell Balancing in Electric Vehicle Battery Pack, INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH & TECHNOLOGY (IJERT) Volume 11, Issue 04 (April 2022).</li>
+    </ol>
+    <h3>Credits and cortesy</h3>
+       <h4>Team members</h4>
+            <ol id="names">
+                <table>
+                <th id="nama">1. Mr.Hariharan J (20BEE033), Final year, Bachelor of Engineering, Electrical and Electronics Department, Kumaraguru College of Technology.</th>
+                <th><a href="https://www.linkedin.com/in/hari-haran-j"><img id="linked" src="images\icons8-linkedin-48.png" alt="Linkedin Logo"></a></th>
+                <th><a href="mailto:harijanakiraman12@gmail.com?subject=Feedback"><img id="linked" src="images\icons8-gmail-48.png" alt="Gmail Logo"></a></th>
+                </table>
+                <table>
+                    <th id="nama">2. Mr.Jayanth S K (20BEE033), Final year, Bachelor of Engineering, Electrical and Electronics Department, Kumaraguru College of Technology.</th>
+                    <th><a href="https://www.linkedin.com/in/jayanth-s-k"><img id="linked" src="images\icons8-linkedin-48.png" alt="Linkedin Logo"></a></th>
+                    <th><a href="mailto:jayanthskpj@gmail.com?subject=Feedback"><img id="linked" src="images\icons8-gmail-48.png" alt="Gmail Logo"></a></th>
+                </table>
+                <table>
+                    <th id="nama">3. Mr.Vishnu    M (20BEE033), Final year, Bachelor of Engineering, Electrical and Electronics Department, Kumaraguru College of Technology.</th>
+                    <th><a href=""><img id="linked" src="images\icons8-linkedin-48.png" alt="Linkedin Logo"></a></th>
+                    <th><a href="mailto:harivishnu995@gmail.com?subject=Feedback"><img id="linked" src="images\icons8-gmail-48.png" alt="Gmail Logo"></a></th>
+                </table>
+            </ol>
+        <h4>Guide</h4>    
+            <ol id="names">
+            <table>
+                <th id="nama">Dr.Nirmala M, Assistant Professor III, Electrical and Electronics Department, Kumaraguru College of Technology.</th>
+                <th><a href=""><img id="linked" src="images\icons8-linkedin-48.png" alt="Linkedin Logo"></a></th>
+                <th><a href="mailto:?subject=Feedback"><img id="linked" src="images\icons8-gmail-48.png" alt="Gmail Logo"></a></th>
+            </table>
+        </ol>
+        </body>
+</html>

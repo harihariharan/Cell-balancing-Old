@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result of Cell 5</title>
+    <style>
+        h1{
+            text-align: center;
+            color: #060864;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform:capitalize;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        html{
+            background-color: #C8EEF5;
+        }
+        h3{
+            text-align: center;    
+            color: #2093E3;
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: capitalize;
+        }
+        iframe{
+            margin-left: 20%;
+            margin-right: 25%;
+            border: 2px solid; 
+        }
+        #tab{
+            text-align: center;
+            color: #060864;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform:capitalize;
+            margin-left: 40%;
+        }
+        table{
+            margin-left: 15%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Live Simulation result of Cell 5</h1>
+    <br>
+    <h3>Resulting Status of Cell 5</h3>
+    <br>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th><h3 id="tab">Voltage Status of Cell 5</h3></th>
+            <th><h3 id="tab">State of charge Status of Cell 5</h3></th>
+        </tr>
+        <tr>
+            <td><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2295970/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Cell+5+Voltage&type=line&xaxis=Time"></iframe></td>
+            <td>><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2295973/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Cell+5+SOC&type=line&xaxis=Time"></iframe></td>
+        </tr>    
+    </table> 
+</body>
+</html>
